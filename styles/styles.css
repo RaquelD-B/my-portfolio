@@ -1,3 +1,6 @@
+:root {
+  --primary-color: rgba(13, 110, 253, 1);
+}
 .hero {
   background-image: url("/img/hero.jpeg");
   background-repeat: no-repeat;
@@ -22,4 +25,20 @@ h2 {
 
 .btn-primary {
   margin: 30px 20px;
+}
+.heading {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: center;
+}
+.home-paragraph {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1, 5;
+  text-align: center;
+  font-size: 15px;
 }
