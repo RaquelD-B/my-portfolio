@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgba(13, 110, 253, 1);
+  --primary-color: rgba(13, 110, 253, 0.7);
 }
 .hero {
   background-image: url("/img/hero.jpeg");
@@ -7,10 +7,13 @@
   background-size: cover;
   text-align: left;
   padding: 170px 0;
+  margin: 0 60px;
+  border-radius: 10px;
 }
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+  padding-top: 30px;
 }
 
 h2 {
@@ -23,22 +26,43 @@ h2 {
   margin: 10px;
 }
 
-.btn-primary {
+.btn-light {
   margin: 30px 20px;
+  font-family: "Open Sans", sans-serif !important;
+}
+.hero-p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0 0 0;
 }
 .heading {
-  background-color: var(--primary-color);
   border-radius: 10px;
-  color: white;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   margin: 10px 0;
   text-align: center;
+  text-decoration: underline;
 }
 .home-paragraph {
   font-family: "Open Sans", sans-serif;
   line-height: 1, 5;
   text-align: center;
   font-size: 15px;
+}
+.img-fluid {
+  display: block;
+  margin: 0 auto;
+}
+.home-img {
+  background: linear-gradient(in oklab, rgba(11, 94, 215, 0.8), white);
+}
+.img {
+  width: 50%;
+}
+
+.content-styling {
+  background: linear-gradient(in oklab, white, rgba(11, 94, 215, 0.8));
 }
