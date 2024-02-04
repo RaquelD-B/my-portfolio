@@ -64,6 +64,9 @@ h2 {
 }
 
 @media (max-width: 768px) {
+  .body {
+    margin: 0 20px;
+  }
   .home-img {
     display: none;
   }
@@ -76,11 +79,16 @@ h2 {
   .hero {
     background-image: url("/img/hero.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 700px 600px;
     text-align: left;
-    padding: 170px 0;
-    margin: 0 60px;
+    margin: 0 auto;
     border-radius: 10px;
+    padding-bottom: none;
+  }
+  h1,
+  h2 {
+    padding: 0;
+    margin: 0;
   }
   .content-styling {
     border: solid 1px blue;
