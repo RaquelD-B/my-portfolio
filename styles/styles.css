@@ -30,7 +30,7 @@ h2 {
   margin: 30px 20px;
   font-family: "Open Sans", sans-serif !important;
 }
-.hero-p {
+.sub-heading {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -63,6 +63,27 @@ h2 {
   width: 50%;
 }
 
-.content-styling {
-  background: linear-gradient(in oklab, white, rgba(11, 94, 215, 0.8));
+@media (max-width: 768px) {
+  .home-img {
+    display: none;
+  }
+  .home-paragraph {
+    margin: 0 auto;
+  }
+  .col-5 {
+    width: 100%;
+  }
+  .hero {
+    background-image: url("/img/hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding: 170px 0;
+    margin: 0 60px;
+    border-radius: 10px;
+  }
+  .content-styling {
+    border: solid 1px blue;
+    margin: 0 auto;
+  }
 }
