@@ -1,5 +1,10 @@
 :root {
   --primary-color: rgba(13, 110, 253, 0.7);
+  --linear-gradient-primary: linear-gradient(
+    in oklab,
+    rgba(11, 94, 215, 0.8),
+    white
+  );
 }
 .hero {
   background-image: url("/img/hero.jpeg");
@@ -57,10 +62,20 @@ h2 {
   margin: 0 auto;
 }
 .home-img {
-  background: linear-gradient(in oklab, rgba(11, 94, 215, 0.8), white);
+  background: var(--linear-gradient-primary);
 }
 .img {
   width: 50%;
+}
+.about-wrapper {
+  background: var(--linear-gradient-primary);
+  border: solid 1px var(--primary-color);
+  border-radius: 10px;
+}
+.about-content h1,
+h2 {
+  color: black;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
