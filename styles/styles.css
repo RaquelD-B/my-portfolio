@@ -110,6 +110,17 @@ h2 {
   .body {
     margin: 0 20px;
   }
+  .nav-bar-styling {
+    position: relative;
+    top: 10px;
+    left: -20px;
+    justify-content: space-evenly;
+    font-size: 15px;
+  }
+  nav ul {
+    padding-left: 0;
+  }
+
   .index-img {
     display: none;
   }
