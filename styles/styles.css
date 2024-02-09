@@ -8,14 +8,34 @@
   --primary-font-family: "Poppins", sans-serif;
   --secondary-font-family: "Open Sans", sans-serif;
 }
+.nav-personalized {
+  height: 50px;
+  font-family: var(--primary-font-family);
+  background: var(--linear-gradient-primary);
+}
+.nav-personalized ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-personalized ul li a:hover {
+  color: var(--primary-color);
+}
+.logo {
+  width: 100px;
+}
+.nav-bar-styling {
+  list-style: none;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 39px;
+}
+
 .hero {
   background-image: url("/img/hero.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: left;
   padding: 170px 0;
-  margin: 0 60px;
-  border-radius: 10px;
 }
 h1 {
   font-family: var(--primary-font-family);
@@ -70,7 +90,7 @@ h2 {
   margin: 0 auto;
 }
 .about-body {
-  margin: 20px auto;
+  margin: 0 auto;
 }
 .about-wrapper {
   background-color: white;
