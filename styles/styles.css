@@ -19,15 +19,15 @@
 }
 .nav-personalized ul li a:hover {
   color: var(--primary-color);
-}
-.logo {
-  width: 100px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 .nav-bar-styling {
   list-style: none;
-  justify-content: space-evenly;
+  justify-content: space-around;
   position: relative;
-  bottom: 39px;
+  top: 10px;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -212,5 +212,9 @@ footer .social-links a:hover {
     margin: 20px auto;
     border: solid 1px var(--primary-color);
     max-width: 50%;
+  }
+
+  footer .container {
+    display: none;
   }
 }
