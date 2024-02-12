@@ -223,8 +223,7 @@ footer .social-links a:hover {
     font-size: 25px;
   }
   #about-img {
-    display: block;
-    background: white;
+    display: none;
   }
   .about-btn {
     display: block;
