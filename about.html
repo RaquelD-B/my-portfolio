@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Raquel Diaz: Front-end developer</title>
+    <meta
+      name="description"
+      content="Raquel Diaz is a front-end developer based in South America. She graduates recently from SheCodes workshops"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,20 +33,30 @@
   </head>
   <body class="about-body">
     <nav class="nav-personalized">
-      <img src="img/logo.png" alt="" class="logo d-none d-sm-block" />
       <ul class="d-flex nav-bar-styling">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/work.html">Work</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/" title="Link to home page">Home</a></li>
+        <li>
+          <a
+            href="/about.html"
+            class="active"
+            title="Link to about Raquel Diaz page"
+            >About</a
+          >
+        </li>
+        <li><a href="/work.html" title="Link to Raquel's projects">Work</a></li>
+        <li>
+          <a href="/contact.html" title="Link to Raquel's contact page"
+            >Contact</a
+          >
+        </li>
       </ul>
     </nav>
     <div class="container about-wrapper">
       <div class="row">
         <div class="col-6 align-items-stretch">
-          <h1>About me</h1>
-          <h2>Hi again! I am Raquel Diaz</h2>
-          <p>
+          <h1 class="text-capitalize">About me</h1>
+          <h2>Hi again! I am Raquel Díaz</h2>
+          <p class="paragraph">
             I am a front-end developer currently based in Paraguay, but willing
             to relocate if needed. Besides Paraguay, I've also lived in the USA
             and Ireland. I hold a Bachelors Degree in Foreign Trade and Business
@@ -52,21 +66,62 @@
             professional experience 👩‍💻
           </p>
 
-          <a href="#" class="btn btn-light about-btn">Check out my projects</a>
+          <a
+            href="/work.html"
+            class="btn btn-light about-btn btn-lg"
+            title="Link to Raquel's projects"
+            >Check out my projects</a
+          >
         </div>
 
-        <div class="col-6 align-items-stretch html-img" id="about-img">
-          <img src="img/raquel.JPG" class="img-fluid rounded pt-4 img" />
+        <div class="col-6 align-items-stretch html-img-about">
+          <img
+            src="img/raquel.JPG"
+            class="img-fluid rounded pt-4 img"
+            id="about-img"
+          />
         </div>
       </div>
     </div>
 
-    <footer>
+    <footer class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="heading">Work Inquiry</div>
+            <p class="paragraph">Let's work together and level up!</p>
+          </div>
+          <div class="col">
+            <a
+              href="/contact.html"
+              class="btn btn-light btn-lg contact-btn d-block text-center"
+              >Contact me
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr />
       <p class="sub-heading">Follow me on...</p>
-      <div class="text-center">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-github"></i>
+      <div class="text-center social-links">
+        <a
+          href="https://www.instagram.com/che_rera_/"
+          target="_blank"
+          title="Raquel instagram account"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/raquel-d%C3%ADaz-barrios/"
+          target="_blank"
+          title="Raquel linkeding account"
+        >
+          <i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/RaquelD-B"
+          target="_blank"
+          title="Raquel github account"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </div>
     </footer>
   </body>

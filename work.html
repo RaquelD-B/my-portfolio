@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio of Raquel Diaz: Front-end developer</title>
+    <title>Portofolio of Raquel Diaz: Projects</title>
+    <meta
+      name="description"
+      content="ChecK out Raquel Diaz projects with different technologies"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,15 +33,26 @@
   </head>
   <body>
     <nav class="nav-personalized">
-      <img src="img/logo.png" alt="" class="logo d-none d-sm-block" />
       <ul class="d-flex nav-bar-styling">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/work.html">Work</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/" title="Link to home page">Home</a></li>
+        <li>
+          <a href="/about.html" title="Link to about Raquel Diaz page">About</a>
+        </li>
+        <li>
+          <a href="/work.html" class="active" title="Link to Raquel's projects"
+            >Work</a
+          >
+        </li>
+        <li>
+          <a href="/contact.html" title="Link to Raquel's contact page"
+            >Contact</a
+          >
+        </li>
       </ul>
     </nav>
-    <h1>Take a look at what I've been working on!</h1>
+    <h1 class="text-capitalize mt-2 mb-2">
+      Take a look at what I've been working on!
+    </h1>
     <div class="container">
       <div class="row">
         <div class="col-lg me-2 html-img">
@@ -48,6 +63,12 @@
           />
           <div class="heading">WeatherApp</div>
           <p class="paragraph">Built using HTML, CSS, JS and API</p>
+          <a
+            href="https://weather-app-by-raquel.netlify.app/"
+            class="btn btn-light btn-lg d-block text-center"
+            title="WeatherApp link "
+            >Launch Weather App</a
+          >
         </div>
         <div class="col-lg html-img">
           <img
@@ -57,15 +78,53 @@
           />
           <div class="heading">MagnoliaApp</div>
           <p class="paragraph">Built using HTML, CSS, and Bootstrap</p>
+          <a
+            href="https://reposteria-magnolia.netlify.app/"
+            class="btn btn-light btn-lg d-block text-center"
+            title="Magnolia webpage link"
+            >Launch Magnolia App
+          </a>
         </div>
       </div>
     </div>
-    <footer>
+    <footer class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="heading">Work Inquiry</div>
+            <p class="paragraph">Let's work together and level up!</p>
+          </div>
+          <div class="col">
+            <a
+              href="/contact.html"
+              class="btn btn-light btn-lg contact-btn d-block text-center"
+              >Contact me
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr />
       <p class="sub-heading">Follow me on...</p>
-      <div class="text-center">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-github"></i>
+      <div class="text-center social-links">
+        <a
+          href="https://www.instagram.com/che_rera_/"
+          target="_blank"
+          title="Raquel instagram account"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/raquel-d%C3%ADaz-barrios/"
+          target="_blank"
+          title="Raquel linkeding account"
+        >
+          <i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/RaquelD-B"
+          target="_blank"
+          title="Raquel github account"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </div>
     </footer>
   </body>
