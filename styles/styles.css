@@ -56,7 +56,15 @@ h1,
 h2 {
   margin: 10px;
 }
-
+h3 {
+  text-align: center;
+  margin: 8px auto 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+.container {
+  margin: 20px 0 !important;
+}
 .btn-light {
   margin: 30px 20px;
   font-family: var(--secondary-font-family) !important;
@@ -68,6 +76,7 @@ h2 {
   color: black;
   background: var(--primary-color);
 }
+
 .sub-heading {
   font-family: var(--primary-font-family);
   font-weight: 700;
@@ -77,7 +86,7 @@ h2 {
   text-transform: capitalize;
 }
 .heading {
-  border-radius: 10px;
+  -radius: 10px;
   font-family: var(--primary-font-family);
   font-weight: bold;
   font-size: 40px;
@@ -101,12 +110,20 @@ h2 {
   width: 75%;
 }
 .html-img {
-  background: var(--linear-gradient-primary);
+  background: #c8dbf9;
 }
+
 .img {
-  width: 60%;
+  width: 80%;
   display: block;
   margin: 0 auto;
+  border-radius: 4px;
+}
+.index-content {
+  margin: 0px 30px 20px 30px;
+}
+.index-content {
+  background-color: white;
 }
 .about-body {
   margin: 0 auto;
@@ -124,10 +141,9 @@ h2 {
   display: block;
   margin: 0 auto;
 }
-footer .container {
-  border: solid 1px var(--primary-color);
+.work-inquiry {
   background: var(--linear-gradient-primary);
-  border-radius: 10px;
+  border-radius: 4px;
 }
 footer .col-6 {
   background-color: white;
