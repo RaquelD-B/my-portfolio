@@ -290,7 +290,7 @@ footer .social-links a:hover {
     margin: 0 auto;
   }
   .container {
-    margin: 0 !important;
+    margin: 0 auto 10px auto !important;
   }
   .col-sm-4 a {
     text-align: center !important;
