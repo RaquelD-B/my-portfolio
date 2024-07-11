@@ -65,6 +65,7 @@ h3 {
 .container {
   margin: 20px 0 !important;
 }
+
 .btn-light {
   margin: 30px 20px;
   font-family: var(--secondary-font-family) !important;
@@ -193,10 +194,13 @@ section ul li {
   background: var(--linear-gradient-primary);
   border-radius: 4px;
 }
+.work-inquiry p {
+  text-align: center;
+}
 footer .col-6 {
   background-color: white;
 }
-footer .container .contact-btn {
+.contact-btn {
   max-width: 50%;
   position: relative;
   left: 140px;
@@ -335,7 +339,7 @@ footer .social-links a:hover {
     padding: 4px 8px;
     margin: 5px;
   }
-  footer .container {
-    display: none;
+  .work-inquiry {
+    margin: 5px auto;
   }
 }
