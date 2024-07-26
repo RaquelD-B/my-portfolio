@@ -186,6 +186,7 @@ h2 {
 .work-inquiry {
   background: var(--linear-gradient-primary);
   border-radius: 4px;
+  width: 100%;
 }
 .work-inquiry p {
   text-align: center;
@@ -193,6 +194,11 @@ h2 {
 
 #about-img {
   width: 75%;
+}
+#resume {
+  display: block;
+  font-weight: bold;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -310,6 +316,7 @@ h2 {
   }
   section ul {
     text-align: left;
+    padding: 0;
   }
   section ul li {
     font-size: 10px;
