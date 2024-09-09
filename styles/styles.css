@@ -11,7 +11,6 @@
 .nav-personalized {
   height: 60px;
   font-family: var(--primary-font-family);
-  background: var(--linear-gradient-primary);
 }
 
 .nav-personalized ul li a {
@@ -20,26 +19,38 @@
   font-size: 20px;
 }
 .nav-personalized ul li a:hover {
-  color: var(--primary-color);
   font-weight: bold;
 }
 .nav-bar-styling {
   list-style: none;
   justify-content: space-around;
   position: relative;
+  text-decoration: underline;
   top: 16px;
   padding: 0;
 }
 .nav-bar-styling .active {
-  color: var(--primary-color);
+  background-color: black;
+  color: white;
+  padding: 4px 9px;
 }
 
 .hero {
-  background-image: url("/img/hero2.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: left;
-  padding: 250px 0;
+  background-color: black;
+  padding: 10px;
+}
+.hero-box {
+  border: solid white 1px;
+  margin: 40px 20px;
+  padding: 100px 10px;
+}
+.hero h1 {
+  letter-spacing: 0.2em;
+  font-family: "Courier New", Courier, monospace;
+}
+.hero h1,
+.hero h2 {
+  text-align: center;
 }
 h1 {
   font-family: var(--primary-font-family);
@@ -274,23 +285,19 @@ h2 {
     margin: 0 auto;
   }
 
-  .hero {
-    background-image: url("/img/hero.jpeg");
-    background-repeat: no-repeat;
-    background-size: 700px 600px;
-    text-align: left;
-    margin: 0 auto;
-    border-radius: 10px;
-    padding-bottom: none;
-    padding: 250px 0 170px;
+  .hero-box {
+    margin: 20px 10px;
+    padding: 40px 5px;
   }
   h1 {
     font-size: 30px;
     padding-bottom: 5px;
   }
-  h2 {
+  h2,
+  h3 {
     font-size: 20px;
   }
+
   .heading {
     font-size: 25px;
   }
