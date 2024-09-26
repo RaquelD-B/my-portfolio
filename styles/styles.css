@@ -122,15 +122,16 @@ section ul li {
 }
 
 .btn-light {
-  margin: 30px 20px;
+  margin: 10px 80px;
+  padding: 9px 18px;
   font-family: var(--secondary-font-family) !important;
   color: white;
-  background: black;
+  background: #607d8b;
   transition: all 100ms ease-in-out;
 }
 .btn-light:hover {
-  color: black;
-  background: var(--primary-color);
+  color: white;
+  background: #455a64;
 }
 .container {
   margin: 20px 0 !important;
@@ -142,6 +143,7 @@ section ul li {
 }
 .heading {
   border-radius: 10px;
+  color: #455a64;
   font-family: var(--primary-font-family);
   font-weight: 600;
   font-size: 42px;
@@ -151,7 +153,7 @@ section ul li {
 }
 
 .html-img {
-  background: #c8dbf9;
+  background: #cfd8dc;
 }
 .img {
   width: 80%;
