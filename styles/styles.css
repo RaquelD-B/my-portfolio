@@ -1,10 +1,6 @@
 :root {
   --primary-color: rgba(13, 110, 253, 0.7);
-  --linear-gradient-primary: linear-gradient(
-    in oklab,
-    rgba(11, 94, 215, 0.8),
-    white
-  );
+  --linear-gradient-primary: linear-gradient(135deg, #f5f5f5, #e0e0d1);
   --primary-font-family: "Poppins", sans-serif;
   --secondary-font-family: "Roboto", sans-serif;
 }
@@ -26,7 +22,7 @@
   justify-content: space-around;
   position: relative;
   text-decoration: underline;
-  top: 16px;
+  top: 10px;
   padding: 0;
 }
 .nav-bar-styling .active {
@@ -36,12 +32,12 @@
 }
 
 .hero {
-  background-color: black;
+  background: var(--linear-gradient-primary);
   padding: 10px;
 }
 .hero-box {
-  border: solid white 1px;
-  margin: 40px 20px;
+  border: solid #455a64 1px;
+  margin: 0px 20px;
   padding: 100px 10px;
 }
 .hero h1 {
@@ -60,6 +56,7 @@ h1 {
 }
 
 h2 {
+  color: #455a64 !important;
   font-family: var(--secondary-font-family);
   font-size: 42px;
   font-weight: 600;
@@ -140,6 +137,10 @@ section ul li {
   max-width: 50%;
   position: relative;
   left: 140px;
+  top: 27px;
+}
+.col {
+  background: var(--linear-gradient-primary);
 }
 .heading {
   border-radius: 10px;
