@@ -108,10 +108,10 @@ section ul li {
 }
 
 .about-btn {
-  margin: 0;
+  display: block;
+  text-align: center !important;
 }
 .about-wrapper {
-  background-color: white;
   margin-top: 20px;
 }
 .about-wrapper p {
@@ -139,7 +139,8 @@ section ul li {
   left: 140px;
   top: 27px;
 }
-.col {
+.col,
+.col-6 {
   background: var(--linear-gradient-primary);
 }
 .heading {
@@ -155,6 +156,9 @@ section ul li {
 
 .html-img {
   background: #cfd8dc;
+}
+.html-img-about {
+  border: white 1px solid;
 }
 .img {
   width: 80%;
@@ -172,7 +176,7 @@ section ul li {
 .paragraph {
   font-family: var(--secondary-font-family);
   line-height: 1.6;
-  text-align: justify;
+  text-align: justify !important;
   font-size: 18px;
   font-weight: 400;
 }
@@ -211,10 +215,9 @@ h2 {
 }
 
 #about-img {
-  border-radius: 10px;
+  border-radius: 50%;
   display: block;
   margin: auto;
-  width: 50%;
 }
 #resume {
   display: block;
