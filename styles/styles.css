@@ -143,6 +143,15 @@ section ul li {
 .col-6 {
   background: var(--linear-gradient-primary);
 }
+.contact-container {
+  background: var(--linear-gradient-primary);
+}
+.contact-paragraph {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
 .heading {
   border-radius: 10px;
   color: #455a64;
@@ -174,9 +183,12 @@ section ul li {
 }
 
 .paragraph {
+  text-align: justify !important;
+}
+.paragraph,
+.contact-paragraph {
   font-family: var(--secondary-font-family);
   line-height: 1.6;
-  text-align: justify !important;
   font-size: 18px;
   font-weight: 400;
 }
