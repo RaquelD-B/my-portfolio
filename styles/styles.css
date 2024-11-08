@@ -141,8 +141,8 @@ section ul li {
 .contact-btn {
   max-width: 50%;
   position: relative;
-  left: 140px;
-  top: 27px;
+  left: 60px;
+  top: -10px;
 }
 .col {
   padding: 48px 48px 20px 48px;
@@ -299,12 +299,11 @@ h2 {
     margin-top: 15px;
   }
   .contact-btn {
-    left: 25px;
-    top: 43px;
-    width: 100% !important;
-    padding: 10px 0;
-    max-width: 80% !important;
-    margin-right: 30px !important;
+    font-size: 14px;
+    padding: 7px 0px;
+    margin: 0 auto;
+    top: -15px;
+    left: 0px;
   }
   .content-styling {
     margin: 0 auto;
