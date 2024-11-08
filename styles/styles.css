@@ -76,6 +76,9 @@ h3 {
 footer .col-6 {
   background-color: white;
 }
+footer .footer-text {
+  padding-bottom: 15px;
+}
 footer .social-links a {
   font-size: 30px;
   margin: 0 20px;
@@ -141,6 +144,9 @@ section ul li {
   left: 140px;
   top: 27px;
 }
+.col {
+  padding: 48px 48px 20px 48px;
+}
 .col,
 .col-6 {
   background: var(--linear-gradient-primary);
@@ -175,11 +181,11 @@ section ul li {
   margin: 0 auto;
   border-radius: 4px;
 }
-.index-content {
-  margin: 0px 30px 20px 30px;
-}
-.index-content {
+.index-content,
+.contact-content {
   background-color: white;
+  margin: 0px auto;
+  width: 90%;
 }
 
 .paragraph {
@@ -261,7 +267,7 @@ h2 {
     font-size: 12px;
     display: block;
     border: solid 1px var(--primary-color);
-    max-width: 50%;
+    max-width: 60%;
   }
   .about-btn {
     margin: 20px auto 0 auto;
@@ -275,6 +281,9 @@ h2 {
   }
   .btn-lg {
     margin: 10px auto;
+  }
+  .col {
+    padding: 20px;
   }
 
   .col-5 {
@@ -298,7 +307,6 @@ h2 {
     margin-right: 30px !important;
   }
   .content-styling {
-    border: solid 1px blue;
     margin: 0 auto;
   }
   .container {
