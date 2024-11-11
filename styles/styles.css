@@ -138,11 +138,15 @@ section ul li {
 .container {
   margin: 20px 0 !important;
 }
+
+.row .col-sm-6 {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
 .contact-btn {
   max-width: 50%;
-  position: relative;
-  left: 60px;
-  top: -10px;
 }
 .col {
   padding: 48px 48px 20px 48px;
