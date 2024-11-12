@@ -250,9 +250,9 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  .about-wrapper {
-    padding-bottom: 20px;
-    text-align: center;
+  .about-wrapper p {
+    text-align: justify;
+    margin-bottom: -100px;
   }
   .about-wrapper h1,
   h2 {
@@ -304,10 +304,8 @@ h2 {
   }
   .contact-btn {
     font-size: 14px;
-    padding: 7px 0px;
-    margin: 0 auto;
-    top: -15px;
-    left: 0px;
+    padding: 7px 4px;
+    margin: 0px auto 10px;
   }
   .content-styling {
     margin: 0 auto;
@@ -360,7 +358,8 @@ h2 {
     text-align: justify;
   }
   section ul {
-    text-align: left;
+    text-align: center;
+    margin: 0 auto;
     padding: 0;
   }
   section ul li {
