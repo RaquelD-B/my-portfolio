@@ -45,7 +45,8 @@
   font-size: 58px;
 }
 .hero h1,
-.hero h2 {
+.hero h2,
+.hero h4 {
   text-align: center;
 }
 h1 {
@@ -72,6 +73,13 @@ h3 {
   font-size: 32px;
   font-weight: 400;
   line-height: 1.4;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4;
+  margin: 8px auto 0;
 }
 footer .col-6 {
   background-color: white;
@@ -330,7 +338,9 @@ h2 {
   h3 {
     font-size: 20px;
   }
-
+  h4 {
+    font-size: 12px;
+  }
   .heading {
     font-size: 25px;
   }
