@@ -41,22 +41,43 @@
     ></script>
   </head>
   <body class="index">
-    <nav class="nav-personalized">
-      <ul class="d-flex nav-bar-styling">
-        <li><a href="/" class="active" title="Link to home page">Home</a></li>
-        <li>
-          <a href="/about.html" title="Link to about Raquel Diaz page">About</a>
-        </li>
-        <li>
-          <a href="/work.html" title="Link to Raquel's projects">Projects</a>
-        </li>
-        <li>
-          <a href="/contact.html" title="Link to Raquel's contact page"
-            >Contact</a
-          >
-        </li>
-      </ul>
-    </nav>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Navbar</title>
+        <link rel="stylesheet" href="styles.css" />
+      </head>
+      <body>
+        <nav class="nav-personalized">
+          <ul class="d-flex nav-bar-styling">
+            <li>
+              <a href="/" class="active" title="Link to home page">Home</a>
+            </li>
+            <li>
+              <a href="/about.html" title="Link to about Raquel Diaz page"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="/work.html"
+                class="projects"
+                title="Link to Raquel's projects"
+                >Work</a
+              >
+            </li>
+            <li>
+              <a href="/contact.html" title="Link to Raquel's contact page"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </body>
+    </html>
+
     <div class="hero">
       <div class="hero-box">
         <h2 class="ms-2 mt-5">Hi, I am</h2>
@@ -65,219 +86,13 @@
           🛒📦Procurement Specialist & Front-end Developer💻⚙️
         </h2>
         <h4>
-          "Connecting procurement expertise with cutting-edge technology to
-          drive innovation and excellence"
+          I bring together procurement expertise and innovative technology to
+          solve challenges and achieve excellence
         </h4>
+        <a href="/work.html" class="btn btn-light" id="hero-btn"
+          >See My Services</a
+        >
       </div>
-    </div>
-    <div class="index-content">
-      <h3>⬇️Scroll down to discover some of my projects⬇️</h3>
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col align-items-stretch content-styling">
-            <div class="heading">Purchasing plan</div>
-            <p class="paragraph">
-              ⏳ How much time do you spend trying to figure out a purchase plan
-              for the upcoming year? Thanks to Python 🐍, I can now get it done
-              in just a few minutes 😄. Data analysis and trend visualization
-              have never been so effortless for me! With the script I’ve
-              developed, you’re just one click away from accessing all the key
-              parameters you need:
-            </p>
-            <ul class="paragraph">
-              <li>📊 Average sales</li>
-              <li>🏆Product rankings</li>
-              <li>📦 Immediate procurement needs</li>
-              <li>
-                📝 A perfectly tailored purchase plan that fits your company’s
-                requirements
-              </li>
-            </ul>
-            <p class="paragraph">Want to learn more? Let’s connect! 📩</p>
-            <a
-              href="/contact.html"
-              class="btn btn-light btn-lg d-block text-center"
-              target="_blank"
-              >Contact me
-            </a>
-          </div>
-          <div class="col align-items-stretch p-5 html-img index-img">
-            <img
-              src="img/Plan_de_compras.png"
-              class="img-fluid img"
-              alt="Purchase plan preview page preview"
-            />
-            <img
-              src="img/Raking_ventas_mensual.png"
-              alt="Product ranking"
-              class="img-fluid img"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col align-items-stretch p-5 html-img index-img">
-            <img
-              src="img/first-project.jpeg"
-              class="img-fluid img"
-              alt="Travel landing page preview"
-            />
-          </div>
-          <div class="col align-items-stretch content-styling">
-            <div class="heading">Travel project</div>
-            <p class="paragraph">
-              This project was my very first approach to coding. To achieve the
-              desired look and functionality, I used HTML, CSS, and JavaScript.
-              The most exciting part of this project was adding a "Change Theme"
-              button. I fell in love with coding through this project.
-            </p>
-            <a
-              href="https://very-first-project.netlify.app/"
-              class="btn btn-light btn-lg d-block text-center"
-              title="Travek project link"
-              target="_blank"
-              >Launch project
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col align-items-stretch content-styling">
-            <div class="heading">WeatherApp</div>
-            <p class="paragraph">
-              This project was really challenging and helped me understand the
-              logic behind JavaScript. <br />
-              It includes API integration, advanced JS function, positioning
-              with CSS, and more! <br />
-
-              Click the button below to check the weather forecast for your
-              favorite city. 🌎🌧️🌞
-            </p>
-            <a
-              href="https://weather-app-by-raquel.netlify.app/"
-              class="btn btn-light btn-lg d-block text-center"
-              title="WeatherApp link "
-              target="_blank"
-              >Launch project</a
-            >
-          </div>
-          <div class="col align-items-stretch p-5 html-img index-img">
-            <img
-              src="img/weatherApp.jpeg"
-              class="img-fluid img"
-              alt="WeatherApp preview"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col align-items-stretch p-5 html-img index-img">
-            <img
-              src="img/travel-egypt.jpeg"
-              class="img-fluid img"
-              alt="Responsive webpage preview"
-            />
-          </div>
-          <div class="col align-items-stretch content-styling">
-            <div class="heading">Responsive landing page</div>
-            <p class="paragraph">
-              In this project, I developed a responsive webpage using pure CSS
-              and HTML. It was one of the most fun projects ever! 😀 Without the
-              use of Bootstrap or any other frameworks, I delved into the core
-              of CSS to create an attractive and functional webpage for both
-              computers and mobile phones. The project includes features such as
-              cards, grids, embeds, and CSS filters.
-            </p>
-            <a
-              href="https://travel-project-by-raquel.netlify.app/"
-              class="btn btn-light btn-lg d-block text-center"
-              title="Responsive landing page"
-              target="_blank"
-              >Launch project
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col align-items-stretch content-styling">
-            <div class="heading">React Weather App</div>
-            <p class="paragraph">
-              I felt super-powered when I had a working project in React!
-              Learning React was a significant leap in my journey to becoming a
-              developer. It felt like entering another world; although it seemed
-              confusing at first, it turned out to be incredibly smart! 🤩
-              <br />
-              This project includes API integration and advanced React
-              functions. When you look up a city, the app not only displays the
-              weather forecast but also animated weather emojis 😀. Working on
-              this app and getting it to function correctly was incredibly
-              fulfilling
-            </p>
-
-            <a
-              href="https://react-weatherapp-by-raquel.netlify.app/"
-              class="btn btn-light btn-lg d-block text-center"
-              title="Dictionary App link "
-              target="_blank"
-              >Launch project</a
-            >
-          </div>
-          <div class="col align-items-stretch p-5 html-img index-img">
-            <img
-              src="img/ReactWeatherApp.png"
-              class="img-fluid img"
-              alt="WeatherApp preview"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="container work-inquiry">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="heading">Work Inquiry</div>
-          </div>
-          <div class="col-sm-6">
-            <a
-              href="/contact.html"
-              class="btn btn-light btn-lg contact-btn d-block text-center"
-              >Contact me
-            </a>
-          </div>
-        </div>
-      </div>
-      <footer>
-        <hr />
-        <p class="sub-heading">Follow me on...</p>
-        <div class="text-center social-links">
-          <a
-            href="https://www.linkedin.com/in/raquel-d%C3%ADaz-barrios/"
-            target="_blank"
-            title="Raquel linkeding account"
-          >
-            <i class="fa-brands fa-linkedin"></i
-          ></a>
-          <a
-            href="https://github.com/RaquelD-B"
-            target="_blank"
-            title="Raquel github account"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </div>
-        <hr />
-
-        <div class="footer-text text-center text-muted">
-          This website was coded by Raquel Díaz and is available on
-          <a
-            href="https://github.com/RaquelD-B/my-portfolio"
-            title="Github repository"
-            >GitHub</a
-          >
-        </div>
-      </footer>
     </div>
   </body>
 </html>
