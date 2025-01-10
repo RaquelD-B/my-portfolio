@@ -13,10 +13,13 @@
   text-decoration: none;
   color: black;
   font-size: 20px;
+  position: relative;
 }
+
 .nav-personalized ul li a:hover {
   font-weight: bold;
 }
+
 .nav-bar-styling {
   list-style: none;
   justify-content: space-around;
@@ -25,10 +28,16 @@
   top: 10px;
   padding: 0;
 }
+
 .nav-bar-styling .active {
   background-color: black;
   color: white;
   padding: 4px 9px;
+}
+
+.projects {
+  color: #ff5722; /* Highlight color for "Projects" */
+  position: relative;
 }
 
 .hero {
@@ -38,7 +47,7 @@
 .hero-box {
   border: solid #455a64 1px;
   margin: 0px 20px;
-  padding: 100px 10px;
+  padding: 80px 10px;
 }
 .hero h1 {
   letter-spacing: 0.2em;
@@ -49,6 +58,16 @@
 .hero h4 {
   text-align: center;
 }
+.hero a {
+  display: block;
+  padding: 5px 15px;
+}
+#hero-btn {
+  margin: 30px 500px 0px;
+  font-weight: 500;
+  font-family: var(--secondary-font-family);
+}
+
 h1 {
   font-family: var(--primary-font-family);
   font-weight: bold;
@@ -330,15 +349,18 @@ h2 {
     padding: 40px 5px;
   }
   h1 {
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 5px;
   }
-  h2,
+  h2 {
+    font-size: 15px;
+  }
+
   h3 {
     font-size: 20px;
   }
   h4 {
-    font-size: 12px;
+    font-size: 10px;
   }
   .heading {
     font-size: 25px;
@@ -387,5 +409,9 @@ h2 {
 
   #about-img {
     display: none;
+  }
+  #hero-btn {
+    margin: 15px 80px 0px;
+    font-size: 15px;
   }
 }
