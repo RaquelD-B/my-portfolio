@@ -114,7 +114,6 @@ footer .social-links a:hover {
 }
 section {
   margin: 10px 0;
-  border: solid 1px var(--primary-color);
   border-radius: 4px;
 }
 section h2 {
